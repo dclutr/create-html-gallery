@@ -24,14 +24,15 @@ The expectations of the script and the files created by the script are shown bel
    current directory
 => |__index.html
 => |__styles.css
-   |__<each folder with media files>
+<= |__<each folder with media files>
 <=    |__media files
 =>    |__index.html
 ```
 
 ## Gotchas
 1. Too many media files in one directory can cause the `index.html` of that directory to be slow. Putting a limit on number of files can help, for example 64
-2. The html pages rely on the browser's capabilities which may cause problems with some formats
+2. The html pages rely on the browser's audio / video capabilities
+
 Note: Kodi can be used instead of this script as long as your device is compatible.
 Kodi is a software available on desktops and mobile phones which handles media browsing and playback pretty well
 
@@ -50,4 +51,4 @@ The bash script creates html pages with embedded audio / video and no javascript
 3. mpg, mpe, avi, wmv, mov, rm, ram, swf, flv are embedded as links
 
 Thanks to w3schools.com,
-have taken this information from `https://www.w3schools.com/html/html_media.asp` and `https://www.w3schools.com/html/html_images.asp`
+have used the information on web formats from `https://www.w3schools.com/html/html_media.asp` and `https://www.w3schools.com/html/html_images.asp`
