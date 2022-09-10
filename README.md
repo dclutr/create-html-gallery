@@ -46,9 +46,9 @@ to browse on localhost (same device) or the local network (same device or device
 
 ## Technicalities
 The bash script creates html pages with embedded audio / video and no javascript
-1. jpg, jpeg, png, svg, apng, gif, ico, cur, jfif, pjpeg, pjp are embedded as <img>
-2. webm, ogg, mp4 are embedded as <video>
-3. mpg, mpe, avi, wmv, mov, rm, ram, swf, flv are embedded as links
+1. jpg, jpeg, png, svg, apng, gif, ico, cur, jfif, pjpeg, pjp are embedded as images using the img tag
+2. webm, ogg, mp4 are embedded as videos using the video and source tags
+3. mpg, mpe, avi, wmv, mov, rm, ram, swf, flv are embedded as links using the a / anchor tag
 
 Thanks to w3schools.com,
 have used the information on web formats from `https://www.w3schools.com/html/html_media.asp` and `https://www.w3schools.com/html/html_images.asp`
