@@ -1,7 +1,7 @@
 # create-html-gallery
 A tool to create a gallery that can be opened in browser. The files in the repository other than `create.sh` are not required
 
-A sample gallery created from the script is available at 
+A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
 ## An alias of choice
 Before running the script, one can create a short alias of choice in their .bashrc file. My choice was hg short for html gallery
