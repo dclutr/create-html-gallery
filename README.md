@@ -4,7 +4,7 @@ A tool to create a gallery that can be opened in browser. The files in the repos
 A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
 ## An alias of choice
-Before running the script, one can create a short alias of choice in their .bashrc file. My choice was hg short for html gallery
+Before running the script, one can create a short alias of choice in their .bashrc file. My choice was hg short for html gallery as shown in `example bashrc.png`
 ```bash
 # ~/.bashrc
 alias hg="bash /path-to/create.sh"
@@ -28,6 +28,7 @@ The expectations of the script and the files created by the script are shown bel
 <=    |__media files
 =>    |__index.html
 ```
+This can also be seen in `example gallery.png`
 
 ## Gotchas
 1. Too many media files in one directory can cause the `index.html` of that directory to be slow. Putting a limit on number of files can help, for example 64
