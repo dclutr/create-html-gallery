@@ -1,5 +1,5 @@
 # create-html-gallery
-A tool to create a gallery that can be opened in browser. The files in the repository other than `create.sh` are not required
+A script to create a gallery that can be opened in browser. The files in the repository other than `create.sh` are not required
 
 A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
