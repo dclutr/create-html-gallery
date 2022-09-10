@@ -53,3 +53,5 @@ The bash script creates html pages with embedded audio / video and no javascript
 
 Thanks to w3schools.com,
 have used the information on web formats from `https://www.w3schools.com/html/html_media.asp` and `https://www.w3schools.com/html/html_images.asp`
+
+Navigation from media to media and page to page is done using fragment urls pointing to sections using their id
