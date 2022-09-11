@@ -1,5 +1,5 @@
 # create-html-gallery
-A script to create web pages with pictures and videos embedded
+A script named `create.sh`, to create web pages with pictures and videos embedded. Files other than `create.sh` are extras and are not used by the script
 
 A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
