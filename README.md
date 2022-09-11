@@ -4,7 +4,7 @@ A script to create web pages with pictures and videos embedded
 A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
 ## Creating the gallery
-Running the script `create.sh`will create an index.html in each subdirectory that embeds images, videos from that subdirectory
+Running the script `create.sh`, embeds images and videos present in each subdirectory of the current directory in the `index.html` of that subdirectory
 ```bash
 cd folder-of-choice
 alias hg="bash /path-to/create.sh"
