@@ -1,22 +1,16 @@
 # create-html-gallery
-A script to create a gallery that can be opened in browser. The files in the repository other than `create.sh` are not required
+A script to create web pages with pictures and videos embedded
 
 A sample gallery created from the script is available at https://dclutr.github.io/create-html-gallery/
 
-## An alias of choice
-Before running the script, one can create a short alias of choice in their .bashrc file. My choice was hg short for html gallery as shown in `example bashrc.png`
-```bash
-# ~/.bashrc
-alias hg="bash /path-to/create.sh"
-```
-
 ## Creating the gallery
-Once the alias is active (a way to do that is to reopen the terminal)
+Running the script `create.sh`will create an index.html in each subdirectory that embeds images, videos from that subdirectory
 ```bash
-cd gallery-folder-of-choice
+cd folder-of-choice
+alias hg="bash /path-to/create.sh"
 hg
 ```
-The expectations of the script and the files created by the script are shown below
+The script looks for files and creates files as shown below. This can also be seen in `example gallery.png`
 ```
 [<=] used by script
 [=>] created by script
@@ -28,7 +22,6 @@ The expectations of the script and the files created by the script are shown bel
 <=    |__media files
 =>    |__index.html
 ```
-This can also be seen in `example gallery.png`
 
 ## Gotchas
 1. Too many media files in one directory can cause the `index.html` of that directory to be slow. Putting a limit on number of files can help, for example 64
@@ -46,7 +39,7 @@ the file manager available at `https://f-droid.org/en/packages/org.openintents.f
 to browse on localhost (same device) or the local network (same device or devices on same network)
 
 ## Technicalities
-The bash script creates html pages with embedded audio / video and no javascript
+The bash script creates html pages with embedded media and no javascript
 1. jpg, jpeg, png, svg, apng, gif, ico, cur, jfif, pjpeg, pjp are embedded as images using the img tag
 2. webm, ogg, mp4 are embedded as videos using the video and source tags
 3. mpg, mpe, avi, wmv, mov, rm, ram, swf, flv are embedded as links using the a / anchor tag
